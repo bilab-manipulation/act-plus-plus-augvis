@@ -1,3 +1,18 @@
+# ACT for augmented vision
+Kisung Shin
+virtualkss@snu.ac.kr
+## Installation
+```
+# git clone this repo
+# cd this repo
+conda create -n act4augvis python=3.11
+conda activate act4augvis
+pip install -r requirements.txt
+cd detr/
+pip install -e .
+# if diffusion policy is needed, check original readme (below)
+```
+
 # Imitation Learning algorithms and Co-training for Mobile ALOHA
 
 
